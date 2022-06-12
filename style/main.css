@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+	background: url(../image/login/fon.jpg) no-repeat; 
+}
+.conteiner_login{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: min-content;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 5px rgb(255 255 255 / 7%);
+}
+.info_login{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    margin: auto;
+    height: min-content;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.form_header {
+	padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+.form_header h3 {
+	margin: 0;
+}
+form {
+    position: relative;
+    float: left;
+    width: 100%;
+    font-weight: 400;
+    border-bottom: 1px solid #dddddd;
+    background: #f0f0f0;
+}
+.contact-form .form {
+    padding: 15px 30px;
+}
+.contact-form .form input {
+    float: none;
+    position: relative;
+    height: 40px;
+    border: 2px solid #dddddd;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    margin: 6px 0px;
+    padding: 0px 0px 0px 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+    outline:none;
+}
+.contact-form .form .agree {
+    position: relative;
+    float: left;
+    font-size: 15px;
+    line-height: 25px;
+    color: #aeaeae;
+    padding: 20px 0px 25px 10px;
+}
+.send-button {
+    background: #fff;
+    height: auto;
+    display: flex;
+    padding: 15px 30px;
+}
+.btn_avt{
+	cursor: pointer;
+	border: 0;
+    float: none;
+    position: relative;
+    height: 40px;
+    display: inline-block;
+    width: 100%;
+    background: #3500D3;
+    color: white;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.btn_avt:hover{
+    background: #240090;
+
+}
+.btn_reg{
+	cursor: pointer;
+    border: 2px solid #3500D3;
+    background: transparent;
+    float: none;
+    position: relative;
+    height: 40px;
+    display: inline-block;
+    width: 50%;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 5px;	
+}
+.btn_reg:hover{
+    border: 2px solid #240090;
+    background: #240090;
+    color: white;
+}
+#error_aut{
+    color: red;
+    text-align: left;
+    margin: 0;
+    padding-top: 10px;
+}
